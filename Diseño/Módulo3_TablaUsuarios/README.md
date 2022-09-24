@@ -41,3 +41,25 @@
 "folio": "####"}
 9|Estatus code| 400|
 10|Response|{"mensaje":"Error usuario no encontrado"}
+
+# Actualizar los datos de un usuario
+
+
+|         No       |Property                    |Value                      |
+|----------------|-------------------------------|-------
+1|Description|endpoint para actualizar los datos de un usuario|
+|2      |Method            |Put          |
+|3|URI    |http://8000/USUARIOS{id_usuario}||
+|4|Query|  id_usuario
+|5|Data |{"nombre" : "varchar",
+"apellido1" : "varchar",
+"apellido2" : "varchar",
+"correo" : "varchar"}
+6|Estatus code|202
+7|Response type|json
+8|Response|{"mensaje": "nombre" : "nombre1",
+"apellido1" : "apellido1",
+"apellido2" : "apellido2",
+"correo" : "nombre@email.com"}
+9|Estatus code| 400|
+10|Response|{"mensaje":"Error usuario no encontrado"}
