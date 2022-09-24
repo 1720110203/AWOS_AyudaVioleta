@@ -45,5 +45,11 @@ Finalmente se llevará a cabo un juicio contra el agresor o si la víctima no es
 
 
 ### Problemática
+
 La mayoría de víctimas de feminicidios son causados por no actuar a tiempo,por la desconfianza de no querer hablar con las autoridades, por la desinformación, por amenazas(amenazas no solo puede ser el agresor tambien puede influir la familia o la familia politica) o por algún vínculo afectivo con el agresor(principal mente si tienen hijos o algun otro compromiso que no sea facil de romper).
+
+### Justificación
+
+Se creará una aplicación web para ayudar a las autoridades a llenar los formularios y llevar un reguistro de forma digital para levantar una denuncia, haciendo más rápido y flexible este trámite , esto lograra que no exista perdida de informacion y se lleve un control mas optimo y con ayuda de internet acercando mas a las autoridades con esta aplicacion.
+
 
