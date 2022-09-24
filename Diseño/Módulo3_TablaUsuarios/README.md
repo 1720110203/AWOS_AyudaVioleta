@@ -56,10 +56,6 @@
 "apellido2" : "varchar",
 "correo" : "varchar"}
 6|Estatus code|202
-7|Response type|json
-8|Response|{"mensaje": "nombre" : "nombre1",
-"apellido1" : "apellido1",
-"apellido2" : "apellido2",
-"correo" : "nombre@email.com"}
+7|Response|{"mensaje": "datos actualizados"}
 9|Estatus code| 400|
-10|Response|{"mensaje":"Error usuario no encontrado"}
+10|Response|{"mensaje":"Error al actualizar datos"}
