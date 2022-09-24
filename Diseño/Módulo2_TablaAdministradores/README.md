@@ -53,7 +53,7 @@
 |  |          |"nombre":varchar,|              
 |  |          |"passw":varchar} |
 |6|Satus code|202|
-|7|Response|[{"mensaje":"Usuario registrado"}|
+|7|Response|{"mensaje":"Usuario registrado"}|
 |8|Response type|JSON|
 |9|Status code (error)|400|
 |10|Response type (error)|JSON|
@@ -85,7 +85,7 @@
 |4|Queri|id.admin|
 |5|Data|N/A|           
 |6|Satus code|202|
-|7|Response|[{"mensaje":"Confirmar accion "}|
+|7|Response|{"mensaje":"Confirmar accion "}|
 |8|Response type|JSON|
 |9|Status code (error)|400|
 |10|Response type (error)|JSON|
