@@ -6,25 +6,25 @@
 |------|---------------------------------|--------------------------------------------|
 | 1    |Descripción Endpoint             |Para consultar un registro de Oficiales     |
 | 2    |MÉTODO                           |GET                                         |
-| 3    |URI                              |http://localhost.8000/oficiales            |
+| 3    |URI                              |http://localhost.8000/oficiales             |
 | 4    |Query                            |N/A                                         |
 | 5    |Data                             |N/A                                         |
 | 6    |Status code                      |202                                         |
 | 7    |response                         |[{"id_oficial ": int},                      |
 |      |                                 |        {"nombre" : "cadena"},              |
-|      |                                 |      {"apellido1" : "cadena"},             |   
+|      |                                 |      {"apellido1" : "cadena"},             |
 |      |                                 |        {"apellido2" : "cadena"},           |
 |      |                                 |        {"carga": "cadena"},                |
 |      |                                 |        {"abscripcion" : "cadena"},         |
-|      |                                 |        {"num_patrulla" : int},             | 
+|      |                                 |        {"num_patrulla" : int},             |
 |      |                                 |        {"contraseña" : "cadena"}]          |
-|      |response                         |[{"id_oficia2 : int},                       |
+|      |                                 |[{"id_oficial2 : int},                      |
 |      |                                 |        {"nombre" : "cadena"},              |
-|      |                                 |      {"apellido1" : "cadena"},             |   
+|      |                                 |      {"apellido1" : "cadena"},             |
 |      |                                 |        {"apellido2" : "cadena"},           |
 |      |                                 |        {"carga": "cadena"},                |
 |      |                                 |        {"abscripcion" : "cadena"},         |
-|      |                                 |        {"num_patrulla" : int},             | 
+|      |                                 |        {"num_patrulla" : int},             |
 |      |                                 |        {"contraseña" : "cadena"}]          |
 | 8    |Status code                      |400                                         |
 | 9    |response                         |{"mensaje" : "Oficial no existe"}           |
@@ -43,7 +43,7 @@
 | 4    |Query                            |N/A                                         |
 | 5    |Data                             |N/A                                         |
 | 6    |Status code                      |202                                         |
-| 7    |response                         |[{"id_oficiales" : int},                    |
+| 7    |response                         |[{"id_oficial" : int},                    |
 |      |                                 |        {"nombre" : "cadena"},              |
 |      |                                 |      {"apellido1" : "cadena"},             |   
 |      |                                 |        {"apellido2" : "cadena"},           |
@@ -67,7 +67,7 @@
 | 2    |MÉTODO                           |POST                                            |
 | 3    |URI                              |http://localhost.8000/oficiales/                |
 | 4    |Query                            |N/A                                             |
-| 5    |Data                             |{"id_oficiales" : int,                          |
+| 5    |Data                             |{"id_oficial" : int,                            |
 |      |                                 |    "nombre" : "cadena",                        |
 |      |                                 |    "apellido1" : "cadena",                     |    
 |      |                                 |    "apellido2" : "cadena",                     |
@@ -89,9 +89,9 @@
 |------|---------------------------------|------------------------------------------------|
 | 1    |Descripción Endpoint             |Para actualizar datos de Oficiales              |
 | 2    |MÉTODO                           |PUT                                             |
-| 3    |URI                              |http://localhost.8000/oficiales/{id_oficiales}  |
-| 4    |Path Params                      |id_oficiales                                    |
-| 5    |Data                             |{"id_oficiales" : int},                         |
+| 3    |URI                              |http://localhost.8000/oficiales/{id_oficial}    |
+| 4    |Path Params                      |id_oficial                                     |
+| 5    |Data                             |{"id_oficial" : int},                         |
 |      |                                 |   {"nombre" : "cadena"},                       |
 |      |                                 |   {"apellido1" : "cadena"}                     |    
 |      |                                 |   {"apellido2" : "cadena"},                    |
@@ -113,8 +113,8 @@
 |------|---------------------------------|--------------------------------------------      |
 | 1    |Descripción Endpoint             |Para eliminar datos de Oficiales                  |
 | 2    |MÉTODO                           |DELETE                                            |
-| 3    |URI                              |http://localhost.8000/oficiales/{id_oficiales}    |
-| 4    |Path Params                      |id_oficiales                                      |
+| 3    |URI                              |http://localhost.8000/oficiales/{id_oficial}      |
+| 4    |Path Params                      |id_oficial                                        |
 | 5    |Data                             |N/A                                               |
 | 6    |Status code                      |202                                               |
 | 7    |response                         |{"mensaje":"Oficial eliminado correctamente"}     |
