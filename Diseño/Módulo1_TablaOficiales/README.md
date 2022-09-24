@@ -2,6 +2,38 @@
 
 ## Ver todos los registros de la tabla.
 
+|   NO.| Property                        |Value                                       |
+|------|---------------------------------|--------------------------------------------|
+| 1    |Descripción Endpoint             |Para consultar un registro de Oficiales     |
+| 2    |MÉTODO                           |GET                                         |
+| 3    |URI                              |http://localhost.8000/oficiales            |
+| 4    |Query                            |N/A                                         |
+| 5    |Data                             |N/A                                         |
+| 6    |Status code                      |202                                         |
+| 7    |response                         |[{"id_oficial ": int},                      |
+|      |                                 |        {"nombre" : "cadena"},              |
+|      |                                 |      {"apellido1" : "cadena"},             |   
+|      |                                 |        {"apellido2" : "cadena"},           |
+|      |                                 |        {"carga": "cadena"},                |
+|      |                                 |        {"abscripcion" : "cadena"},         |
+|      |                                 |        {"num_patrulla" : int},             | 
+|      |                                 |        {"contraseña" : "cadena"}]          |
+|      |response                         |[{"id_oficia2 : int},                       |
+|      |                                 |        {"nombre" : "cadena"},              |
+|      |                                 |      {"apellido1" : "cadena"},             |   
+|      |                                 |        {"apellido2" : "cadena"},           |
+|      |                                 |        {"carga": "cadena"},                |
+|      |                                 |        {"abscripcion" : "cadena"},         |
+|      |                                 |        {"num_patrulla" : int},             | 
+|      |                                 |        {"contraseña" : "cadena"}]          |
+| 8    |Status code                      |400                                         |
+| 9    |response                         |{"mensaje" : "Oficial no existe"}           |
+| 10   |response type                    |JSON                                        |
+| 11   |CURL                             |-x GET -h http://localhost.8000/oficiales   |
+
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## Consultar un registro.
 |   NO.| Property                        |Value                                       |
 |------|---------------------------------|--------------------------------------------|
