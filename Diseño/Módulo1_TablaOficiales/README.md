@@ -4,7 +4,7 @@
 
 |   NO.| Property                        |Value                                       |
 |------|---------------------------------|--------------------------------------------|
-| 1    |Descripción Endpoint             |Para consultar un registro de Oficiales     |
+| 1    |Descripción Endpoint             |Para consultar registros de Oficiales       |
 | 2    |MÉTODO                           |GET                                         |
 | 3    |URI                              |http://localhost.8000/oficiales             |
 | 4    |Query                            |N/A                                         |
