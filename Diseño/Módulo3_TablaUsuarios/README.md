@@ -53,7 +53,7 @@
 |----------------|-------------------------------|-------
 1|Description|endpoint para consultar un usuario |
 |2      |Method            |Get           |
-|3|URI    |http://8000/USUARIOS||
+|3|URI    |http://8000/USUARIOS{id_usuario}||
 |4|Query|  id_usuario
 |5|Data |{"id_usuario"
 "nombre" : "varchar",
