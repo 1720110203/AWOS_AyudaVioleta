@@ -1,2 +1,10 @@
 # AWOS_AyudaVioleta
-Ayuda violeta es un proyecto para ayudar a la comunidad a hacer denuncias anonimas
+
+## AYUDA VIOLETA
+
+### Integrantes: 
+** Islas Islas Roberto Carlos **
+** Lopez Morales María del Pilar **
+** Valderrama Velazquez Saul **
+
+
