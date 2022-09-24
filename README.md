@@ -3,9 +3,9 @@
 ## AYUDA VIOLETA
 
 ### Integrantes: 
-***Islas Islas Roberto Carlos 
-Lopez Morales María del Pilar 
-Valderrama Velazquez Saul ***
+**Islas Islas Roberto Carlos **
+** Lopez Morales María del Pilar **
+** Valderrama Velazquez Saul **
 
 ### Antecedentes
 Segun el comunicado de prensa  del INEGI NÚM. 689/21 el dia 23 DE NOVIEMBRE DE 2021(*Fuente:*https://www.inegi.org.mx/contenidos/saladeprensa/aproposito/2021/EAP_Elimviolmujer21.pdf)
