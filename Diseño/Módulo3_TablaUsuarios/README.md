@@ -45,7 +45,9 @@
 7|Response type|json
 8|Response|{"mensaje": "Usario registrado correctamente"}
 9|Estatus code| 400|
-10|Response|{"mensaje": "Error al registrar el usuario"}
+10|Response|{"mensaje": "Error al registrar el usuario"}|
+11|curl| -X POST{-H http://8000/USUARIOS
+
 # Consultar un usuario
 
 
@@ -69,7 +71,8 @@
 "correo" : "nombre@email.com"
 "folio": "####"}
 9|Estatus code| 400|
-10|Response|{"mensaje":"Error usuario no encontrado"}
+10|Response|{"mensaje":"Error usuario no encontrado"}|
+11|curl| -X  GET{-H http://8000/USUARIOS{id_usuario}
 
 # Actualizar los datos de un usuario
 
@@ -87,7 +90,8 @@
 6|Estatus code|202
 7|Response|{"mensaje": "datos actualizados"}
 9|Estatus code| 400|
-10|Response|{"mensaje":"Error al actualizar datos"}
+10|Response|{"mensaje":"Error al actualizar datos"}|
+11|curl| -X PUT{-h http://8000/USUARIOS{id_usuario}
 
 # Eliminar un usuario
 
