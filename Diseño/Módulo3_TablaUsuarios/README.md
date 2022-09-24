@@ -1,4 +1,33 @@
 # Endpoints Tabla Usuarios
+
+# Ver todos los registros de la tabla
+
+
+|         No       |Property                    |Value                      |
+|----------------|-------------------------------|-------
+1|Description|endpoint para ver los registros de la tabla|
+|2      |Method            |Get    |
+|3|URI    |http://8000/USUARIOS|
+|4|Query|  id_usuario
+|5|Data | N/A
+6|Estatus code|202
+7|Response type|json
+8|Response|{"mensaje": "id_usuario" "1"
+"nombre" : "nombre1",
+"apellido1" : "apellido1",
+"apellido2" : "apellido2",
+"correo" : "persona1@email.com",
+"folio": "#####"}
+{"id_usuario" "2"
+"nombre" : "nombre2",
+"apellido1" : "apellido1",
+"apellido2" : "apellido1",
+"correo" : "persona2@email.com",
+"folio": "####"}
+9|Estatus code| 400|
+10|Response|{"mensaje":"Error no hay registros"}
+
+
 |         No       |Property                    |Value                      |
 |----------------|-------------------------------|-------
 1|Description|endpoint para insertar un usuario |
