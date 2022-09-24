@@ -59,3 +59,20 @@
 7|Response|{"mensaje": "datos actualizados"}
 9|Estatus code| 400|
 10|Response|{"mensaje":"Error al actualizar datos"}
+
+# Eliminar un usuario
+
+|         No       |Property                    |Value                      |
+|----------------|-------------------------------|-------
+1|Description|endpoint para borrar un usuario|
+|2      |Method            |Delete      |
+|3|URI    |http://8000/USUARIOS{id_usuario}||
+|4|Query|  id_usuario
+|5|Data | N/A
+6|Estatus code|202
+7|Response type|json
+8|Response|{"mensaje": " usuario eliminado correctamente"}
+9|Estatus code| 400|
+10|Response|{"mensaje":"Error  al eliminar el usuario"}
+11|curl| -X {-H http://8000/USUARIOS{id_usuario}
+
