@@ -14,7 +14,7 @@
 |      |                                 |        {"nombre" : "cadena"},                          |
 |      |                                 |      {"apellido1" : "cadena"},                         |
 |      |                                 |        {"apellido2" : "cadena"},                       |
-|      |                                 |        {"carga": "cadena"},                            |
+|      |                                 |        {"cargo": "cadena"},                            |
 |      |                                 |        {"abscripcion" : "cadena"},                     |
 |      |                                 |        {"num_patrulla" : int},                         |
 |      |                                 |        {"contraseña" : "cadena"}]                      |
@@ -22,7 +22,7 @@
 |      |                                 |        {"nombre" : "cadena"},                          |
 |      |                                 |      {"apellido1" : "cadena"},                         |
 |      |                                 |        {"apellido2" : "cadena"},                       |
-|      |                                 |        {"carga": "cadena"},                            |
+|      |                                 |        {"cargo": "cadena"},                            |
 |      |                                 |        {"abscripcion" : "cadena"},                     |
 |      |                                 |        {"num_patrulla" : int},                         |
 |      |                                 |        {"contraseña" : "cadena"}]                      |
@@ -47,7 +47,7 @@
 |      |                                 |        {"nombre" : "cadena"},              |
 |      |                                 |      {"apellido1" : "cadena"},             |   
 |      |                                 |        {"apellido2" : "cadena"},           |
-|      |                                 |        {"carga": "cadena"},                |
+|      |                                 |        {"cargo": "cadena"},                |
 |      |                                 |        {"abscripcion" : "cadena"},         |
 |      |                                 |        {"num_patrulla" : int},             | 
 |      |                                 |        {"contraseña" : "cadena"}]          |
@@ -71,7 +71,7 @@
 |      |                                 |    "nombre" : "cadena",                        |
 |      |                                 |    "apellido1" : "cadena",                     |    
 |      |                                 |    "apellido2" : "cadena",                     |
-|      |                                 |    "carga": "cadena",                          |
+|      |                                 |    "cargo": "cadena",                          |
 |      |                                 |    "abscripcion" : "cadena",                   |
 |      |                                 |    "num_patrulla" : int,                       |
 |      |                                 |    "contraseña" : "cadena"}                    |
@@ -95,7 +95,7 @@
 |      |                                 |   {"nombre" : "cadena"},                       |
 |      |                                 |   {"apellido1" : "cadena"}                     |    
 |      |                                 |   {"apellido2" : "cadena"},                    |
-|      |                                 |   {"carga": "cadena"},                         |
+|      |                                 |   {"cargo": "cadena"},                         |
 |      |                                 |   {"abscripcion" : "cadena"},                  |
 |      |                                 |   {"num_patrulla" : int},                      |
 |      |                                 |   {"contraseña" : "cadena"}                    |
