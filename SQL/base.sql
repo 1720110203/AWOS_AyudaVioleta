@@ -1,5 +1,5 @@
 CREATE TABLE administradores(
-    id_administrador INT PRIMARY KEY AUTOINCREMENT ,
+    id_administrador INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre_u varchar (125),
     nick_admin varchar (32),
     passw varchar(32)
