@@ -1,11 +1,11 @@
 CREATE TABLE administradores(
-    id_administrador INTEGER PRIMARY KEY AUTO_INCREMENT ,
+    id_administrador int(11) PRIMARY KEY AUTOINCREMENT,
     nick_admin varchar (32),
     passw varchar(32)
 );
 
 CREATE TABLE denuncia_oficial (
-   id_denuncia int(11) NOT NULL,
+   id_denuncia int(11) PRIMARY KEY AUTOINCREMENT,
    id_oficial int(11)  references oficiales not NULL,
    fecha date DEFAULT NULL,
    hora time DEFAULT NULL,
@@ -36,7 +36,7 @@ CREATE TABLE denuncia_oficial (
 ) ;
 
 CREATE TABLE oficiales (
-  id_oficial int(11) NOT NULL,
+  id_oficial int(11) PRIMARY KEY AUTOINCREMENT,
   nombre varchar(150) NOT NULL,
   apellido_paterno varchar(150) NOT NULL,
   apellido_materno varchar(150) DEFAULT NULL,
@@ -45,15 +45,12 @@ CREATE TABLE oficiales (
   passw varchar(32) NOT NULL
 );
 CREATE TABLE usuarios (
-  id_usuario int(11) NOT NULL,
+  id_usuario int(11) PRIMARY KEY AUTOINCREMENT,
   nombre varchar(150) NOT NULL,
   apellido_1 varchar(150) NOT NULL,
   apellido_2 varchar(150) ,
   folio varchar(150) NOT NULL,
   passw varchar(32) NOT NULL
 );
-
-
-
   
 
