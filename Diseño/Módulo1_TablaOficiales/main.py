@@ -23,12 +23,12 @@ class Oficial(BaseModel):
 
 class OficialIN(BaseModel):
     nombre : str
-    apellido1 : str
-    apellido2 : str
-    carga : str 
+    apellidoPaterno : str
+    apellidoMaterno : str
+    cargo_grado : str 
     abscripcion : str
     num_patrulla : str
-    contraseña : str
+    passw : str
 
 #-------------------------------------------------------------------------------------------
 #
@@ -79,7 +79,7 @@ async def get_root():
 
 async def get_contactos():
     try:
-        with sqlite3.connect("api/sql/oficiales.db") as connection: #conecta a mi base
+        with sqlite3.connect("SQL/ayudaV.db") as connection: #conecta a mi base
             connection.row_factory = sqlite3.Row
             cursor = connection.cursor()
             cursor.execute ("SELECT * FROM oficiales;") #consulta de la lista
