@@ -1,14 +1,13 @@
 --CREATE TABLE oficiales (
-    --id_oficial INTEGER PRIMARY KEY AUTOINCREMENT,
-    --nombre varchar (30) NOT NULL,
-   -- apellido_paterno varchar (30) NOT NULL,
-   -- apellido_materno varchar (30) NOT NULL,
-    --cargo_grado varchar (50) ,
-    --abscripcion varchar (50) NOT NULL,
-    --num_patrulla varchar (30) NOT NULL,
-    --passw varchar (30)NOT NULL  
-
+  --id_oficial integer PRIMARY KEY AUTOINCREMENT,
+  --nombre varchar(150) NOT NULL,
+  --apellido_paterno varchar(150) NOT NULL,
+  --apellido_materno varchar(150),
+  --adscripcion varchar(150) NOT NULL,
+  --cargo_grado varchar(150) NOT NULL,
+  --matricula varchar(30) not null unique,  
+  --passw varchar(32) NOT NULL
 --);
 
-INSERT INTO oficiales (nombre, apellido_paterno, apellido_materno, cargo_grado, abscripcion, num_patrulla, passw) VALUES 
-("Federico", "Hernandez", "Leyva", "Administrativa", "Subalterno","2564_Ab", "IHbyg3nj");
+--INSERT INTO oficiales (nombre, apellido_paterno, apellido_materno, cargo_grado, abscripcion, num_patrulla, passw) VALUES 
+--("Federico", "Hernandez", "Leyva", "Administrativa", "Subalterno","2564_Ab", "IHbyg3nj");
