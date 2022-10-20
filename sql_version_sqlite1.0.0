@@ -1,0 +1,54 @@
+CREATE TABLE administradores(
+    id_administrador integer PRIMARY KEY AUTOINCREMENT,
+    nick_admin varchar (32) NOT NULL unique,
+    passw varchar(32)
+);
+
+CREATE TABLE denuncias(
+   id_denuncia integer PRIMARY KEY AUTOINCREMENT,
+   id_oficial integer REFERENCES oficiales(id_oficial),
+   nombre varchar(150) NOT NULL,
+   apellido_paterno varchar(150) NOT NULL,
+   apellido_materno varchar(150),
+   fecha date not null,
+   hora time not null,
+   calidad varchar(150) NOT NULL,
+   nacionalidad varchar(150) NOT NULL,
+   genero varchar(50) NOT NULL,
+   edad varchar(3) NOT NULL,
+   ine varchar(23) NOT NULL,
+   num_telefono varchar(10) NOT NULL unique,
+   correo varchar(150) NOT NULL unique,
+   calle varchar(150) NOT NULL,
+   colonia varchar(150) NOT NULL,
+   num_exterior varchar(3) DEFAULT NULL,
+   num_interior varchar(3) DEFAULT NULL,
+   cp  varchar(6) DEFAULT NULL,
+   municipio varchar(32) NOT NULL,
+   entidad_federativa varchar(150) NOT NULL,
+   referencias varchar(600) NOT NULL,
+   relato_de_los_echos varchar(300) NOT NULL,
+   traslado varchar(2) NOT NULL,
+   lugar_t varchar(50) DEFAULT NULL,
+   fecha_creacion datetime default current_timestamp,
+   estado varchar(10) CHECK (estado IN ('Pendiente','Resuelta')) 
+);
+CREATE TABLE oficiales (
+  id_oficial integer PRIMARY KEY AUTOINCREMENT,
+  nombre varchar(150) NOT NULL,
+  apellido_paterno varchar(150) NOT NULL,
+  apellido_materno varchar(150),
+  adscripcion varchar(150) NOT NULL,
+  cargo_grado varchar(150) NOT NULL,
+  matricula varchar(30) not null unique,  
+  passw varchar(32) NOT NULL
+);
+CREATE TABLE usuarios (
+  id_usuario integer PRIMARY KEY AUTOINCREMENT,
+  nombre varchar(150) NOT NULL,
+  apellido_1 varchar(150) NOT NULL,
+  apellido_2 varchar(150) ,
+  correo varchar(150) NOT NULL unique,
+  passw varchar(32) NOT NULL
+);
+
